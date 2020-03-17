@@ -1,0 +1,191 @@
+/*Variables*/
+$font-title: 'Orbitron', sans-serif;
+$font-content: 'Comfortaa', cursive;
+$white: #ffffff;
+$black: #000000;
+$grey: #e5e5e5;
+
+/*Import*/
+@import "style_lectures";
+
+
+body,
+div{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: $font-content;
+}
+
+header{
+  background-image: url("../image/action-blur-bulb-dark-355904.jpg");
+  opacity: 1;
+  background-color: $black;
+  background-repeat: no-repeat;
+  background-size: 70% auto;
+  background-position: 50% 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(0);
+  h1{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color: $white;
+    font-size: 60px;
+    font-family: $font-title;
+  }
+}
+
+.outline::after{
+  content: "";
+  width: 180px;
+  height: 1px;
+  background-color: $grey;
+  display: block;
+  margin: 0 auto 44px;
+}
+
+.course-material{
+  text-align: center;
+
+  h2{
+    font-family: $font-title;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  a{
+    padding: 0 20px;
+    display: inline-block;
+    width: 280px;
+    margin: 0 0 45px;
+    vertical-align: top;
+    position: relative;
+    color: $black;
+    div{
+      display: inline-block;
+      margin-block-start: 1em;
+
+      img{
+        width: 240px;
+        height: 240px;
+      }
+
+      h3{
+        font-weight: bold;
+        font-family: $font-title;
+      }
+      h4{
+
+      }
+    }
+  }
+  a:hover,
+  a::after{
+    text-decoration: none;
+    /*border: 1px solid $black;
+    width: 278px;*/
+    opacity: 0.75;
+
+  }
+}
+
+footer{
+  background-color: $black;
+  color: $white;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+
+  .footer-logo{
+
+    img{
+      width: 180px;
+    }
+  }
+  .name{
+    p{
+      font-family: $font-title;
+
+    }
+  }
+  .footer-outline::after{
+    content: "";
+    width: 420px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: block;
+    margin: 0 auto 4px;
+  }
+  .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    flex: none;
+    padding: 37px 0 17px;
+    margin: 0 30%;
+    a{
+      cursor: pointer;
+
+    }
+    a:hover,
+    a:active,
+    a:link{
+      text-decoration: none;
+      color: $grey;
+    }
+    .footer-social-link{
+      display: flex;
+      align-items: center;
+      width: 200px;
+      margin: 0 40px 19px 16px;
+      flex: none;
+      transition: all 0.2s ease;
+      .footer-social-icon{
+        width: 34px;
+        height: 34px;
+        background-color: rgba(255,255,255,0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin-right: 20px;
+        .footer-social-image{
+          width: 24px;
+          height: auto;
+          display: block;
+        }
+      }
+      .footer-social-title{
+        font-size: 11px;
+        line-height: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #bfbfbf;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 786px) {
+header{
+  h1{
+    font-size: 34px;
+  }
+}
+  footer{
+  .links{
+    margin: 0;
+    display: block;
+  }
+}
+
+}
