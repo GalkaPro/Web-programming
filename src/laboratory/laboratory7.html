@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <title>Web-programming Laboratory 7 Git&github</title>
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700|Orbitron:400,700,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
 </head>
 <body>
 <header class="header-lecture">
     <a class="title-lecture"><span>Лабораторная работа 7</span>Основы Git&github</a>
-    <a href="index.html" class="link-btn">&lArr; Главная</a>
+    <a href="../../index.html" class="link-btn">&lArr; Главная</a>
 </header>
 <section class="lecture-content">
     <h3>Цель работы</h3>
@@ -74,7 +74,7 @@
         Проследите, чтобы появилась надпись Clone with HTTPS. Теперь нажмите на иконку буфера обмена для копирования-вставки
         (либо выделите ссылку и скопируйте ее).
     </p>
-    <img src="image/lab7_1.png" alt="clone github">
+    <img src="../../image/lab7_1.png" alt="clone github">
     <p class="center">Рисунок 7.1 Клонирование или скачивание репозитория</p>
     <p>
         Откройте терминал и перейдите в директорию для копирования репозитория. Например для перехода в папку project
@@ -149,13 +149,15 @@
     </p>
     <h4>Ход работы</h4>
     <ol>
-        <li>Создание аккаунта на <a href="https://github.com/" target="_blank">GitHub</a></li>
-        <li>Клонирование удаленного репозитория Web-programming.git на локальный компьютер. В дальнейшем работу
-        с проектом нужно начинать с загрузки изменений с удаленного репозитория.</li>
+        <li>Создайте аккаунт на <a href="https://github.com/" target="_blank">GitHub</a></li>
+        <li>Перейте преподавателю свой ника на github</li>
+        <li>Клонируйте удаленный репозиторий Web-programming.git на локальный компьютер. В дальнейшем работу
+        с проектом нужно начинать с загрузки изменений с удаленного репозитория - в ветке master: git pull origin master.</li>
         <li>Изучение материалов лекций / лабораторных работ</li>
-        <li>Создание ветки с именем [фамилия_студента]</li>
-        <li>Выполнение лабораторной работы</li>
-        <li>Добавление своих файлов в удаленный репозиторий</li>
+        <li>Создайте ветку с именем [фамилия_студента] - git checkout -b fullName</li>
+        <li>Создайте в корне проекта папку с именем [фамилия_студента]</li>
+        <li>Выполните лабораторную работу</li>
+        <li>Добавьте свои изменения в удаленный репозиторий - git add -A; git commit -m "Laboratory 7"; git push origin fullName</li>
     </ol>
     <pre><code>
         git pull origin master
@@ -175,18 +177,18 @@
 </section>
 <footer>
     <div class="footer-logo">
-        <img src="image/white_red_svg_with_undertext.svg" alt="logo">
+        <img src="../../image/white_red_svg_with_undertext.svg" alt="logo">
     </div>
     <div class="name footer-outline">
         <p>Проскура Галина Анатольевна, к.т.н., доцент каф. 504</p>
     </div>
     <div class="links">
         <a class="footer-social-link" href="skype:galka.proskura?chat">
-            <div class="footer-social-icon"><img src="image/skype.svg" alt="skype" class="footer-social-image"></div>
+            <div class="footer-social-icon"><img src="../../image/skype.svg" alt="skype" class="footer-social-image"></div>
             <span class="footer-social-title">Skype</span>
         </a>
         <a class="footer-social-link" href="mailto:g.proskura@khai.edu">
-            <div class="footer-social-icon"><img src="image/email-icon.svg" alt="email" class="footer-social-image"></div>
+            <div class="footer-social-icon"><img src="../../image/email-icon.svg" alt="email" class="footer-social-image"></div>
             <span class="footer-social-title">g.proskura@khai.edu</span>
         </a>
 
