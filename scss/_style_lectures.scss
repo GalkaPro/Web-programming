@@ -71,6 +71,29 @@ $green: #16A085;
     opacity: 0.6;
   }
 }
+.btn-top{
+  position: fixed;
+  right: 2%;
+  bottom: 15%;
+  background: #2c2c2c;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  padding: 24px 12px;
+  margin: 2px 2px;
+  opacity: 0.8;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.btn-top:hover,
+.btn-top:active,
+.btn-top:focus{
+  opacity: 1;
+}
+
 .lecture-content{
   width: 60%;
   margin-left: auto;
@@ -129,21 +152,22 @@ $green: #16A085;
   margin-left: auto;
   margin-right: auto;
   border-top: 1px solid $grey;
-  border-bottom: 1px solid $grey;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
 
-  .btn-next{
-    text-align: right;
-  }
-  .btn-previous{
-    text-align: left;
-  }
-  .next-previous{
-    font-size: 10px;
-    text-transform: uppercase;
-  }
-  .title-btn{
+  .bold{
     font-weight: bold;
   }
+
+  .uppercase{
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
   a{
     cursor: pointer;
     text-decoration: none;
