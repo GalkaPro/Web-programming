@@ -5,6 +5,7 @@ $white: #ffffff;
 $black: #000000;
 $grey: #e5e5e5;
 $border-color: #ebebeb;
+$green: #16A085;
 
 .header-lecture{
   width: 100%;
@@ -85,6 +86,12 @@ $border-color: #ebebeb;
   h3:first-child{
     border: none;
   }
+  .subtitle{
+    color: $green;
+    text-transform: uppercase;
+    border-left: 2px solid $green;
+    font-size: 14px;
+  }
   p{
     text-align: justify;
     text-indent: 2em;
@@ -112,7 +119,7 @@ $border-color: #ebebeb;
     h4{
       text-indent: 2em;
       text-transform: uppercase;
-      color: #16A085;
+      color: $green;
     }
   }
 

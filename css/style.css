@@ -65,6 +65,11 @@
     border-top: 1px solid #ebebeb; }
   .lecture-content h3:first-child {
     border: none; }
+  .lecture-content .subtitle {
+    color: #16A085;
+    text-transform: uppercase;
+    border-left: 2px solid #16A085;
+    font-size: 14px; }
   .lecture-content p {
     text-align: justify;
     text-indent: 2em; }
