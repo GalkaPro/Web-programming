@@ -1,0 +1,20 @@
+h1{
+	color: green;
+	font-size: 40px;
+}
+header{
+	text-align: center;
+}
+#group, #laboratory, p{
+	font-style: oblique;
+	font-size: 30px;
+}
+#group{
+	color: red;
+}
+#laboratory{
+	color: pink;
+}
+p{
+	color: yellow;
+}
