@@ -1,0 +1,279 @@
+/*Variables*/
+/*Import*/
+/*Variables*/
+.header-lecture {
+  width: 100%;
+  min-width: 1024px;
+  height: 25px;
+  padding: 20px 0;
+  background-color: #fff;
+  background-image: none;
+  text-align: center;
+  z-index: 20;
+  border-bottom: 1px solid #ebebeb; }
+  .header-lecture .title-lecture {
+    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+    font-size: 18px; }
+    .header-lecture .title-lecture span {
+      font-family: "Comfortaa", cursive;
+      margin-right: 1em;
+      font-style: italic; }
+  .header-lecture .link-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 10px 0;
+    width: 155px;
+    cursor: pointer;
+    text-align: left;
+    display: block;
+    border-bottom: none;
+    padding: 10px 0 10px 45px;
+    border-right: 1px solid #ebebeb; }
+  .header-lecture .link-btn-lw {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px 0;
+    width: 305px;
+    cursor: pointer;
+    text-align: right;
+    display: block;
+    border-bottom: none;
+    padding: 10px 45px 10px 0;
+    border-left: 1px solid #ebebeb; }
+  .header-lecture a {
+    text-decoration: none;
+    color: black; }
+  .header-lecture a:hover,
+  .header-lecture a:active,
+  .header-lecture a:focus {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6; }
+
+.btn-top {
+  position: fixed;
+  right: 2%;
+  bottom: 15%;
+  background: #2c2c2c;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  padding: 24px 12px;
+  margin: 2px 2px;
+  opacity: 0.8;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px; }
+
+.btn-top:hover,
+.btn-top:active,
+.btn-top:focus {
+  opacity: 1; }
+
+.lecture-content {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.35; }
+  .lecture-content h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1em;
+    border-top: 1px solid #ebebeb; }
+  .lecture-content h3:first-child {
+    border: none; }
+  .lecture-content .subtitle {
+    color: #16A085;
+    text-transform: uppercase;
+    border-left: 2px solid #16A085;
+    font-size: 14px; }
+  .lecture-content p {
+    text-align: justify;
+    text-indent: 2em; }
+  .lecture-content pre {
+    border: 1px solid #ebebeb;
+    line-height: 2;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    font-size: 14px;
+    background: rgba(0, 51, 102, 0.0625); }
+  .lecture-content img {
+    display: block;
+    margin: 0 auto; }
+  .lecture-content .center {
+    text-align: center; }
+  .lecture-content .rules {
+    padding: 1em 2em;
+    border: 2px solid #ebebeb;
+    border-radius: 5px; }
+    .lecture-content .rules h4 {
+      text-indent: 2em;
+      text-transform: uppercase;
+      color: #16A085; }
+
+.btn-next-previous {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1em; }
+  .btn-next-previous .bold {
+    font-weight: bold; }
+  .btn-next-previous .uppercase {
+    text-transform: uppercase;
+    font-size: 12px; }
+  .btn-next-previous a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black; }
+  .btn-next-previous a:hover,
+  .btn-next-previous a:active,
+  .btn-next-previous a:focus {
+    text-decoration: none;
+    color: #4e555b; }
+
+body,
+div {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Comfortaa", cursive; }
+
+header {
+  background-image: url("../image/action-blur-bulb-dark-355904.jpg");
+  opacity: 1;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: 70% auto;
+  background-position: 50% 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(0); }
+  header h1 {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: "Orbitron", sans-serif; }
+
+.outline::after {
+  content: "";
+  width: 180px;
+  height: 1px;
+  background-color: #e5e5e5;
+  display: block;
+  margin: 0 auto 44px; }
+
+.course-material {
+  text-align: center; }
+  .course-material h2 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px; }
+  .course-material a {
+    padding: 0 20px;
+    display: inline-block;
+    width: 280px;
+    margin: 0 0 45px;
+    vertical-align: top;
+    position: relative;
+    color: #000000; }
+    .course-material a div {
+      display: inline-block;
+      margin-block-start: 1em; }
+      .course-material a div img {
+        width: 240px;
+        height: 240px; }
+      .course-material a div h3 {
+        font-weight: bold;
+        font-family: "Orbitron", sans-serif; }
+  .course-material a:hover,
+  .course-material a::after {
+    text-decoration: none;
+    /*border: 1px solid $black;
+    width: 278px;*/
+    opacity: 0.75; }
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+  footer .footer-logo img {
+    width: 180px; }
+  footer .name p {
+    font-family: "Orbitron", sans-serif; }
+  footer .footer-outline::after {
+    content: "";
+    width: 420px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: block;
+    margin: 0 auto 4px; }
+  footer .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: none;
+    padding: 37px 0 17px;
+    margin: 0 30%; }
+    footer .links a {
+      cursor: pointer; }
+    footer .links a:hover,
+    footer .links a:active,
+    footer .links a:link {
+      text-decoration: none;
+      color: #e5e5e5; }
+    footer .links .footer-social-link {
+      display: flex;
+      align-items: center;
+      width: 200px;
+      margin: 0 40px 19px 16px;
+      flex: none;
+      transition: all 0.2s ease; }
+      footer .links .footer-social-link .footer-social-icon {
+        width: 34px;
+        height: 34px;
+        background-color: rgba(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin-right: 20px; }
+        footer .links .footer-social-link .footer-social-icon .footer-social-image {
+          width: 24px;
+          height: auto;
+          display: block; }
+      footer .links .footer-social-link .footer-social-title {
+        font-size: 11px;
+        line-height: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #bfbfbf; }
+
+@media screen and (max-width: 786px) {
+  header h1 {
+    font-size: 34px; }
+
+  footer .links {
+    margin: 0;
+    display: block; } }
+
+/*# sourceMappingURL=style.css.map */

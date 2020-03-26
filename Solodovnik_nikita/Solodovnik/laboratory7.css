@@ -1,0 +1,20 @@
+/*Variables*/
+/*Import*/
+/*Variables*/
+.header-lecture {
+  width: 100%;
+  min-width: 1024px;
+  height: 25px;
+  padding: 20px 0;
+  background-color: #fff;
+  background-image: none;
+  text-align: center;
+  z-index: 20;
+  border-bottom: 1px solid #ebebeb; }
+
+  .lecture-content h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1em;
+    border-top: 1px solid #ebebeb; }
+/*# sourceMappingURL=style.css.map */
