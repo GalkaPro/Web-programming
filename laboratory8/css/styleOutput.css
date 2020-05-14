@@ -1,0 +1,44 @@
+body {
+  padding: 50px;
+  background-color: #ece89d;
+  background-image: linear-gradient(to bottom, #ece89d 0%, #5e5373 50%, #18b5a4 100%);
+}
+
+.img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100em;
+}
+
+#img1 {
+  padding: 10px;
+}
+
+#img2 {
+  padding: 10px;
+}
+
+#img3 {
+  padding: 10px;
+}
+
+.block {
+  text-align: center;
+  width: 64em;
+  margin-left: 6%;
+  position: relative;
+}
+
+.str {
+  text-align: left;
+  width: 32em;
+  margin-left: 8%;
+  margin-top: 5%;
+  position: absolute;
+  left: 74%;
+  margin-left: -200px;
+  top: 350px;
+}
+.str h1 {
+  text-align: center;
+}
