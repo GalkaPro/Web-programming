@@ -1,0 +1,126 @@
+body {
+  padding: 50px;
+  background-color: #ece89d;
+  background-image: linear-gradient(to bottom, #ece89d 0%, #5e5373 50%, #18b5a4 100%);
+}
+
+.img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100em;
+}
+
+#img1 {
+  padding: 10px;
+}
+
+#img2 {
+  padding: 10px;
+}
+
+#img3 {
+  padding: 10px;
+}
+
+.block {
+  text-align: center;
+  width: 64em;
+  margin-left: 6%;
+  position: relative;
+}
+
+.str {
+  text-align: left;
+  width: 32em;
+  margin-left: 8%;
+  margin-top: 5%;
+  position: absolute;
+  left: 74%;
+  margin-left: -200px;
+  top: 350px;
+}
+.str h1 {
+  text-align: center;
+}
+
+#carousel {
+  perspective: 1200px;
+  background: #100000;
+  padding-top: 5%;
+  font-size: 0;
+  margin-bottom: 3rem;
+  overflow: hidden;
+}
+
+figure#spinner {
+  transform-style: preserve-3d;
+  height: 300px;
+  transform-origin: 50% 50% -500px;
+  transition: 1s;
+}
+
+figure#spinner img {
+  width: 30%;
+  max-width: 400px;
+  position: absolute;
+  left: 30%;
+  transform-origin: 50% 50% -500px;
+  outline: 1px solid transparent;
+}
+
+figure#spinner img:nth-child(1) {
+  transform: rotateY(0deg);
+}
+
+figure#spinner img:nth-child(2) {
+  transform: rotateY(-51.4deg);
+}
+
+figure#spinner img:nth-child(3) {
+  transform: rotateY(-102.8deg);
+}
+
+figure#spinner img:nth-child(4) {
+  transform: rotateY(-154.2deg);
+}
+
+figure#spinner img:nth-child(5) {
+  transform: rotateY(-205.6deg);
+}
+
+figure#spinner img:nth-child(6) {
+  transform: rotateY(-257deg);
+}
+
+figure#spinner img:nth-child(7) {
+  transform: rotateY(-308.4deg);
+}
+
+#carousel ~ span {
+  color: #fff;
+  margin: 5%;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  transition: 0.6s color;
+  position: relative;
+  margin-top: -4rem;
+  border-bottom: none;
+  line-height: 0;
+}
+
+#carousel ~ span:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+.pq {
+  float: right;
+  border-left: 1px solid green;
+  font-size: 110%;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 5px;
+  padding-right: 5px;
+  width: 200px;
+}
