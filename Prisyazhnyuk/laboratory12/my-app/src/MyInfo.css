@@ -1,0 +1,47 @@
+
+
+div{
+margin: 10px;
+border: 1px solid black;
+font-size: 20px;
+height: 80px;
+}
+.display {
+    font: 300 5rem/1.2 Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    color: #1E136A;
+    padding: 0.5em;
+    font-size: 3em;
+    text-align: center;
+    background: rgba(255,245,215,.5);
+    border-radius: 40px;
+}
+
+.letter {
+    color: white; /* Цвет символа */
+    font-size: 200%; /* Размер шрифта */
+   } 
+   p {
+    color: rgba(202,235,17,1.00); /* Цвет текста */
+   }
+
+body {
+    background: #333;
+}
+ 
+
+.header{ 
+background-color: #ccc;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
